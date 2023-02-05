@@ -1,0 +1,226 @@
+.show_rules_container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: justify;
+  width: 350px;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+.mastermind-container {
+background-color: #d6d6d6;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+ width: 700px;
+ height: 750px;
+ border: 5px solid rgb(216, 195, 4);
+ border-radius: 8px;
+  overflow-y: scroll;
+  margin-top: 0;
+}
+
+.header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.mastermind_board{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: medium;
+    text-align: center;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.board div {
+    margin: 0 auto;
+    display: flex;
+}
+
+
+.endgame_messages{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 30px;
+}
+
+.game_message{
+    font-size: 28px;
+   font-weight: bolder;
+    margin: 0;
+}
+
+.colors {
+    width: 100%;
+ text-align: center;
+}
+
+.circles{
+    width: 250px;
+    margin:2%
+}
+
+.play-again {
+    background-color: rgb(216, 195, 4);
+    padding: 8px 16px;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    font-weight: bolder;
+}
+
+.colors .color-holder,
+.board .peg {
+    display: inline-block;
+    margin: 1%;
+    width: 40px;
+    height: 40px;
+    border: 1px solid #777;
+    border-radius: 21px;
+    cursor: pointer;
+    background-color: #f0eaed;
+    border: 1px solid black;
+ 
+}
+
+.colors .red,
+.circles .red {
+    background-color: red;
+}
+
+.colors .green,
+.circles .green {
+    background-color: green;
+}
+
+.colors .yellow,
+.circles .yellow {
+    background-color: yellow;
+}
+
+.colors .blue,
+.circles .blue {
+    background-color: blue;
+}
+
+.colors .purple,
+.circles .purple {
+    background-color: purple;
+}
+
+.colors .orange,
+.circles .orange {
+    background-color: orange;
+}
+
+.colors .active {
+    border: 3px solid #000;
+    border-radius: 21px;
+}
+
+.show-button {
+    background-color: rgb(216, 195, 4);
+    padding: 8px 16px;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    font-weight: bolder;
+    
+}
+
+.hide-button {
+    background-color: rgb(216, 195, 4);
+    padding: 8px 16px;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    font-weight: bolder;
+}
+
+.check-button {
+    color:  rgb(216, 195, 4);
+    background-color: white;
+    border: 2px solid white;
+    font-weight: bolder;
+    border-radius: 8px;
+    cursor: pointer;
+    width: 60px;
+    height: 30px;
+}
+
+
+.hints span {
+    display: inline-block;
+    width: 8px;
+    height: 10px;
+    border: 1px solid rgb(216, 195, 4);
+    background-color: white;
+    margin: 15px 2px;
+}
+
+.hints span.correct {
+    background-color: #00bb22;
+}
+
+.hints span.almost {
+    background-color: #fffb00;
+}
+
+.hidden {
+    display: none;
+}
+
+.color-holder {
+    cursor: default;
+}
+
+.solution a {
+    color: #338855;
+    font-size: 1.1em;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+
+
+
+.check-buttondisabled {
+    background-color: grey;
+    color: rgb(202, 202, 202);
+    border: 1px solid grey;
+    border-radius: 8px;
+    cursor: default;
+}
+
+.row {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+}
+
+
+.row.active {
+    width: 400px;
+    background-color: rgb(216, 195, 4);
+    border-radius: 8px;
+    padding: 4px 8px
+}
+
