@@ -32,7 +32,7 @@
 
 > npm install
 
-###### start the project
+###### Start the project
 
 > npm start
 
