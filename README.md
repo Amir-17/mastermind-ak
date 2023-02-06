@@ -1,9 +1,9 @@
--Mastermind board game
+# Mastermind board game
 
-- Project Description:
+## Project Description:
   Mastermind is an online board game where you try to guess the pattern, in both order and color, within ten turns. After submitting a row, a small green squared is show for each circle in a correct position and color. A yellow square indicates the existence of a correct color in an incorrect position.
 
--Project Features:
+## Project Features:
  - Board - wrapper of componenet Row
  - CheckSolution - logic for checking guesses
  - Circle - contains all Pegs for game
@@ -13,16 +13,16 @@
  - Row - wrapper and logic for all elements in one Row
  - Rules - contains button for showing Rules
 
--Built With:
+## Built With:
  - HTML
  - CSS
  - JS
  - React JS
 
-Libraries:
+## Libraries:
 NONE
 
-To get local copy up and running follow these simple steps:
+###### To get local copy up and running follow these simple steps:
 
 1.Clone the repo
 
