@@ -22,7 +22,7 @@
 ## Libraries:
 NONE
 
-###### To get local copy up and running follow these simple steps:
+## To get local copy up and running follow these simple steps:
 
 1.Clone the repo
 
