@@ -24,17 +24,17 @@ NONE
 
 ## To get local copy up and running follow these simple steps:
 
-1.Clone the repo
+###### Clone the repo
 
-https://github.com/Amir-17/mastermind-ak
+> https://github.com/Amir-17/mastermind-ak
 
-2. Install NPM packages
+###### Install NPM packages
 
-npm install
+> npm install
 
-3. start the project
+###### start the project
 
-npm start
+> npm start
 
 Runs the app in the development mode.
 Open http://localhost:3000 to view in the browser
