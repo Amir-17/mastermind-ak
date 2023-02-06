@@ -26,7 +26,7 @@
 
 ###### Clone the repo
 
-> https://github.com/Amir-17/mastermind-ak
+> https://github.com/Amir-17/mastermind-ak.git
 
 ###### Install NPM packages
 
