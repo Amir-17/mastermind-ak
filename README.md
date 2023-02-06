@@ -20,7 +20,7 @@
  - React JS
 
 ## Libraries:
-NONE
+  - NONE
 
 ## To get local copy up and running follow these simple steps:
 
