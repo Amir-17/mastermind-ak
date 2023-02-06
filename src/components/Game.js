@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import Rules from "./Rules";
 import Board from "./Board";
 import Colors from "./Colors";
@@ -12,7 +12,7 @@ for (let j = 0; j < 4; j++) {
 
 const Game = () => {
 	const [activeRow, setActiveRow] = useState(0);
-	const [activeColor, setActiveColor] = useState("");
+	const [activeColor, setActiveColor] = useState("red");
 	const [check, setCheck] = useState(false);
 	const [hints, setHints] = useState([0, 0, 0, 0]);
 	const [previousHints, setPreviousHints] = useState([]);
@@ -116,9 +116,11 @@ const Game = () => {
 					<h1>Mastermind</h1>
 					<Rules />
 					<Colors
+						initialColor="red"
 						list={colors}
 						activatedColor={activateColor}
 						activeColor={activeColor}
+						setActiveColor={setActiveColor}
 					/>
 				</div>
 				<div className="mastermind_board">

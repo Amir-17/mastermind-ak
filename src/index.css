@@ -22,10 +22,9 @@ background-color: #d6d6d6;
   justify-content: center;
   align-items: center;
  width: 700px;
- height: 750px;
+ height: 95%;
  border: 5px solid rgb(216, 195, 4);
  border-radius: 8px;
-  overflow-y: scroll;
   margin-top: 0;
 }
 

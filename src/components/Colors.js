@@ -1,7 +1,12 @@
-import React from "react";
+import React, { useState } from "react";
 import "../index.css";
 
-const Colors = ({ list, activeColor, activatedColor }) => {
+const Colors = ({
+	list,
+	activatedColor,
+
+	activeColor,
+}) => {
 	const listOfAllColors = list.map((color) => {
 		const active = color === activeColor ? "active" : "";
 
@@ -9,7 +14,9 @@ const Colors = ({ list, activeColor, activatedColor }) => {
 			<div
 				className={"color-holder " + color + " " + active}
 				key={color}
-				onClick={() => activatedColor(color)}></div>
+				onClick={() => {
+					activatedColor(color);
+				}}></div>
 		);
 	});
 
