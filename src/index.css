@@ -22,7 +22,7 @@ background-color: #d6d6d6;
   justify-content: center;
   align-items: center;
  width: 700px;
- height: 95%;
+ height: 100%;
  border: 5px solid rgb(216, 195, 4);
  border-radius: 8px;
   margin-top: 0;
@@ -50,6 +50,10 @@ background-color: #d6d6d6;
     display: flex;
 }
 
+h2 {
+    margin: 0;
+}
+
 
 .endgame_messages{
     display: flex;
@@ -57,7 +61,7 @@ background-color: #d6d6d6;
     justify-content: center;
     align-items: center;
     width: 100%;
-    margin-top: 30px;
+    margin-top: 20px;
 }
 
 .game_message{

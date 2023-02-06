@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import Rules from "./Rules";
 import Board from "./Board";
 import Colors from "./Colors";
